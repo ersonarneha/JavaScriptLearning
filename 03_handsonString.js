@@ -8,7 +8,7 @@ var stringHandsOn = function stringTemplateAssign() {
   console.log(`My hobbies are: ${hobby1} ${hobby2} and ${hobby3}`);
 
   console.log(`---by using concatenation-----`);
-  console.log(`My hobbies are:` + hobby1 + hobby2 + hobby3);
+  console.log(`My hobbies are:` + hobby1+" " + hobby2+" " + hobby3);
 };
 
 stringHandsOn();

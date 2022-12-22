@@ -63,11 +63,21 @@ function rajuBhaiya (paisa){
     console.log("purchased fresh vegetables");
     console.log("come back");
     return "bag of vagetables";
+    // console.log("function end");---it is unreachable code
 }
 var bagOfVegetables=rajuBhaiya(100);
 console.log("bagOfVegetables");
 
+function multiply(num1,num2){
+var result=num1*num2;
+    console.log(result);
+    // return result;
 
+}
+console.log("multiply", multiply(10,10));
+var multiplyResult=multiply(56,45);
+var finalResult=multiplyResult+100;
+console.log(finalResult);
 
 
 

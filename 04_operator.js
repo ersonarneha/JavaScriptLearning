@@ -28,6 +28,7 @@ var num3=10;
 var result = ++num3;
 console.log(`Increment operator result is ${result}`);
 
+
 num4= 5;
 var res = --num4;
 // means num4 -1

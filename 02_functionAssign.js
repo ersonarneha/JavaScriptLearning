@@ -26,7 +26,9 @@ swapValuesDude(1000,2000);
 
 console.log("=======Function with argument and return=======");
 function addThreeValues(value1,value2,value3){
-    console.log(value1+value2+value3);
+     console.log(value1+value2+value3
+    );
+    return addThreeValues;
 }
 addThreeValues(10.23,600,40);
-addThreeValues("Hello","Good","Morning")
+addThreeValues("Hello","Good","Morning"); 

@@ -17,9 +17,16 @@ console.log(`==========Even or Odd no========`);
 var noEvenOrOdd=function(value){
     var result= (value%2==0) ? true : false;
     console.log(`${value} is even no- ${result }`);
-    return result;
+    ;
     }
-noEvenOrOdd(29)
+noEvenOrOdd(29);
+//if I want to result as even or odd word then we should perform following step
+// if(data){
+//     console.log("even");
+// }else{
+//     console.log("odd");
+// }
+
 // var noEvenOrOdd=function(value){
 //     var result= (value%2==0) ? true : false;
 //     console.log(`44 is even no- ${result }`);

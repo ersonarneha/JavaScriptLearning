@@ -29,8 +29,8 @@ function monthOfYear(monthNumber) {
     
 }
 monthOfYear(1)
-monthOfYear(2)
-monthOfYear(5)
-monthOfYear(12)
-monthOfYear(15)
-monthOfYear(100)
+//  monthOfYear(2)
+// monthOfYear(5)
+// monthOfYear(12)
+// monthOfYear(15)
+// monthOfYear(100)

@@ -17,6 +17,13 @@ var subtraction=function(num1,num2){
 var result=subtraction(65,20);
 console.log(result);
 
+// var subtraction=function(num1,num2){
+//     // var result=num1-num2;
+//     console.log(`subtraction is : ${num1-num2}`);
+//     // return result;
+// }
+// subtraction(10,25)
+
 var square=function(num){
     console.log("square of", num,"=",num*num);
 }

@@ -80,7 +80,6 @@ const arrayFilterEmployeeData = array_emps.filter((employee) => {
 
 //   console.log(`============= Sum of all employees salary================`);
 
-
 // console.log( `==============Avearge salary of employees for all department=============`);
 
 // let sum = 0;
@@ -94,22 +93,24 @@ const arrayFilterEmployeeData = array_emps.filter((employee) => {
 // let average = sum / noOfEmployees;
 // console.log(`Average of salary of all departments is:${average}`);
 
-console.log( `========== Average salary for All department ==============================`);
+console.log(
+  `========== Average salary for All department ==============================`
+);
 
 const arrayTotal = [];
 const arrayFilterAllDept = array_emps.filter((employee) => {
-  
-    arrayTotal.push(employee.emp_salary);
-  }
-);
+  arrayTotal.push(employee.emp_salary);
+});
 
 let AverageDataOfSalary =
-  arrayTotal.reduce((runningTotal, value) => runningTotal + value) / arrayTotal.length;
+  arrayTotal.reduce((runningTotal, value) => runningTotal + value) /
+  arrayTotal.length;
 
 console.log(`Average salary of All department employee:${AverageDataOfSalary}`);
 
-
-console.log( `========== Average salary for IT department ==============================`);
+console.log(
+  `========== Average salary for IT department ==============================`
+);
 
 const array = [];
 const arrayFilterITDept = array_emps.filter((employee) => {
